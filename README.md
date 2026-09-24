@@ -52,3 +52,13 @@ AI4I2020-Predictive-Maintenance/
 ├── random_forest_model.pkl
 ├── svm_model.pkl
 └── decision_tree_model.pkl
+## Dataset
+
+This project uses the AI4I 2020 Predictive Maintenance dataset.
+
+The original Excel dataset files are not included in this repository. The repository contains the trained machine learning models (`.pkl`) and the Python scripts used for training and prediction.
+
+The training script expects:
+
+- `TRAIN_AI4I2020_PDM_DATASET.xlsx`
+- `TEST_AI4I2020_PDM_DATASET.xlsx`
